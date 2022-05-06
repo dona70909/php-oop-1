@@ -1,4 +1,6 @@
-<?php ?>
+<?php 
+    $big_bang_theory = new Movie("Big bang thery","sit-com","serie",)
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,5 +14,11 @@
         <h1>Intro php</h1>
         <h2>Movie</h2>
     </header>
+
+    <main>
+        <div>
+            <?php var_dump($big_bang_theory) ?>
+        </div>
+    </main>
 </body>
 </html>
