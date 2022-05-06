@@ -4,17 +4,19 @@
         
         private $title;
         private $genre;
-        private $type;
+        private $typeMovie;
+        private $cover;
 
 
-        function __construct($title,$genre,$type)
+        function __construct($title,$genre,$typeMovie,$cover)
         {
             $this->title = $title;
             $this->genre = $genre;
-            $this->genre = $type;
+            $this->typeMovie = $typeMovie;
+            $this->cover = $cover;
         }
 
-        public function setTitle() {
+        /*  public function setTitle() {
             $this->title;
         }
 
@@ -22,20 +24,27 @@
             $this->genre;
         }
 
-        public function setType() {
-            $this->type;
-        }
+        public function setTypeMovie() {
+            $this->typeMovie;
+        } */
 
         public function getTitle() {
-            $this->title;
+            echo $this->title;
         }
 
         public function getGenre() {
-            $this->genre;
+            echo $this->genre;
         }
 
-        public function getType() {
-            $this->type;
+        public function getTypeMovie() {
+            echo $this->typeMovie;
+        }
+
+        public function getCover() {
+            echo $this->cover;
         }
     }
+
+    
 ?>
+
