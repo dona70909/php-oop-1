@@ -1,6 +1,8 @@
 <?php 
     include("./class/Movie.php");
-    $kill_bill = new Movie("Kill bill","film","film-action","https://i.pinimg.com/736x/50/a6/79/50a67980883a1634f4c458fcf71261e0--kill-bill-movie-movie-covers.jpg") 
+    $kill_bill = new Movie("Kill bill","film","action","https://i.pinimg.com/736x/50/a6/79/50a67980883a1634f4c458fcf71261e0--kill-bill-movie-movie-covers.jpg");
+
+    $shutter_island = new Movie("Shutter Island","film","thriller-action","https://i.ytimg.com/vi/Udfq0fiScug/movieposter_en.jpg");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,6 +29,8 @@
     <main>
         <section class="wrapper-cards-movie p-3">
             <div class="row justify-content-center row-cards-movie">
+
+
                 <div class="card col-2">
                     <div class="d-flex justify-content-center p-2">
                         <img class="card-img-top" src="<?php $kill_bill->getCover() ?>" alt="Card image cap">
@@ -39,10 +43,10 @@
 
                 <div class="card col-2">
                     <div class="d-flex justify-content-center p-2">
-                        <img class="card-img-top" src="<?php $kill_bill->getCover() ?>" alt="Card image cap">
+                        <img class="card-img-top" src="<?php $shutter_island->getCover() ?>" alt="Card image cap">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title"><?php $kill_bill->getTitle() ?></h5>
+                        <h5 class="card-title"><?php $shutter_island->getTitle() ?></h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
