@@ -16,18 +16,6 @@
             $this->cover = $cover;
         }
 
-        /*  public function setTitle() {
-            $this->title;
-        }
-
-        public function setGenre() {
-            $this->genre;
-        }
-
-        public function setTypeMovie() {
-            $this->typeMovie;
-        } */
-
         public function getTitle() {
             echo $this->title;
         }

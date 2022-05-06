@@ -1,0 +1,16 @@
+header{
+    height: 10vh;
+}
+
+main {
+    background-color: rgb(39, 39, 39);
+    height: 90vh;
+}
+
+.row-cards-movie {
+    gap: 1rem;
+}
+
+.row-cards-movie .card img {
+    width: 100px;
+}
